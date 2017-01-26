@@ -7,7 +7,7 @@ $(function() {
     breed: "Pug",
     color: "Fawn",
     speak: function() {
-      window.alert("Woof" + name)
+      window.alert("Woof!")
     }
   }
 
