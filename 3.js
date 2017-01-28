@@ -9,11 +9,19 @@ $(function() {
     name: "Brian",
     location: "Chicago, IL",
     status: "Teaching KIEI-924 at Kellogg",
-    friends: ["Walt", "Hank", "Saul"]
-  }
+    friends: ["Walt", "Hank", "Saul"],
+    logNumberOfFriends: function () {
+      console.log(this.friends.length)
+    },
+    alertCurrentStatus: function () {
+      window.alert(this.status)
+    }
+    }
+
+
 
   // Use the two methods here
-  // brian.logNumberOfFriends()
-  // brian.alertCurrentStatus()
+  brian.logNumberOfFriends()
+  brian.alertCurrentStatus()
 
 })

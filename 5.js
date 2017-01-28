@@ -2,7 +2,8 @@
 $(function() {
 
   $("#do-something").on("click", function(event) {
-    // Do something
+    event.preventDefault()
+    $("#unicorn").slideToggle(10000)
   });
 
 })
