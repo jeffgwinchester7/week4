@@ -2,7 +2,12 @@
 $(function() {
 
   $(".thumbnail").on("click", function(event) {
-    event.preventDefault()
+    var elementThatWasClicked = $(this)
+    console.log(elementThatWasClicked)
+    elementThatWasClicked.parent().remove()
+  })
+
+  $(".todobutton").on("click", function(event) {
     var elementThatWasClicked = $(this)
     console.log(elementThatWasClicked)
     elementThatWasClicked.parent().remove()

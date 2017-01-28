@@ -1,0 +1,16 @@
+.thumbnail > img {
+  height: 100px;
+}
+
+.thumbnail {
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+.caption {
+  margin-bottom: 5px;
+}
+
+.todobutton {
+  margin-bottom: 5px;
+}
